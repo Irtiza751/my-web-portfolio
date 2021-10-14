@@ -1,0 +1,234 @@
+/** utility classes starts **/
+@for $count from 1 through 50 {
+    .max-w-#{$count} {
+        max-width: #{$count}rem;
+    }
+}
+
+@for $count from 1 through 10 {
+    .py-#{$count} {
+        padding: #{$count}rem 0;
+    }
+}
+
+@for $count from 1 through 10 {
+    .px-#{$count} {
+        padding: 0 #{$count}rem;
+    }
+}
+
+@for $count from 1 through 10 {
+    .my-#{$count} {
+        margin: #{$count}rem 0;
+    }
+}
+
+@for $count from 1 through 10 {
+    .mx-#{$count} {
+        margin: 0 #{$count}rem;
+    }
+}
+
+@for $count from 0 through 10 {
+    .top-#{$count} {
+        top: #{$count}px;
+    }
+}
+
+@for $count from 0 through 10 {
+    .bottom-#{$count} {
+        bottom: #{$count}px;
+    }
+}
+
+@for $count from 0 through 10 {
+    .left-#{$count} {
+        left: #{$count}px;
+    }
+}
+
+@for $count from 0 through 10 {
+    .right-#{$count} {
+        right: #{$count}px;
+    }
+}
+
+@for $count from 0 through 10 {
+    .z-#{$count} {
+        z-index: #{$count};
+    }
+}
+
+.text-light {
+    color: $light;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.container {
+    max-width: 68rem;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.container-fluid {
+    max-width: 85rem;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.text-sm {
+    font-size: 0.7rem
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-screen {
+    width: 100vh;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.min-w-screen {
+    min-width: 100vh;
+}
+
+.max-h-screen {
+    max-height: 100vh;
+}
+
+.max-w-screen {
+    max-width: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-items-start {
+    justify-items: start;
+}
+
+.justify-items-end {
+    justify-items: end;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-items-stretch {
+    justify-items: stretch;
+}
+
+.justify-self-auto {
+    justify-self: auto;
+}
+
+.justify-self-start {
+    justify-self: start;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-stretch {
+    justify-self: stretch;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+/** utility classes end **/
