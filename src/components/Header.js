@@ -1,4 +1,3 @@
 export const Header = () => {
-    const template = `
-    `
+    const template = ``;
 }
